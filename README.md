@@ -20,7 +20,12 @@ This repo contains a set of R and Matlab scripts to accompany the following two 
 
   #### R version
   
-  `Sourcing` the [R code](/BayesianRelevanceNetworks/R_version/BayesianRelevanceNetworks.R) will create five functions: `BayesianCorrelation_Grouped`, `BayesianPermutation_Grouped`, `PearsonCorrelation_Grouped`, `PearsonPermutation_Grouped`, and `FDRAnalysis`.
+  `Sourcing` the [R code](/BayesianRelevanceNetworks/R_version/BayesianRelevanceNetworks.R) will create five functions: 
+    1. `BayesianCorrelation_Grouped`, 
+    2. `BayesianPermutation_Grouped`, 
+    3. `PearsonCorrelation_Grouped`, 
+    4. `PearsonPermutation_Grouped`, and 
+    5. `FDRAnalysis`.
 
   The first and third functions are different ways of computing correlations between different entities in a count matrix from a set of sequencing experiments. Typically, these entities would be genes or microRNAs whose expression is assessed by RNA-seq or single-cell RNA-seq. But they could be other things as well. The second and fourth functions are ways of estimating a null distribution of correlations under the hypothesis of no true correlation. The final function calculates empirical false discovery rates based on the outputs of the first and second functions, or the second and third functions.
 
