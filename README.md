@@ -34,7 +34,7 @@ This repo contains a set of R and Matlab scripts to accompany the following two 
     2) Compute a null distribution of those correlations by permuting the data, and 
     3) Threshold the correlations based on the permuted distribution and a desired false discovery rate threshold.
 
-  #### [Matlab version]((/BayesianRelevanceNetworks/Matlab_version))
+  #### [Matlab version](/BayesianRelevanceNetworks/Matlab_version)
   
     The basic steps of a complete analysis are the same as above. 
     See the top comment headers of the .m files for descriptions of functionality. The file `TestScript.m` demonstrates how the code would typically be used to perform an analysis of a matrix of count data.
