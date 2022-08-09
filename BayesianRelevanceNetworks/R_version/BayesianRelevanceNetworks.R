@@ -2,7 +2,6 @@
 # This R source code is part of the Bayesian Relevance Networks paper of 
 # Ramachandran, Taltavull, and Perkins, submitted to GLBIO 2017.
 # 
-# Questions or comments: rpara26@gmail.com  theodore.j.perkins@gmail.com
 ##############################################################################
 
 #######################################################
